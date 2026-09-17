@@ -1,0 +1,2 @@
+# This notebook is designed to run from the project root or notebooks/ directory.
+# It reads data/raw/dataset.csv and writes data/processed/processed.csv.

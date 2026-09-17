@@ -1,15 +1,17 @@
-# Core data & modeling
+# Core data and modeling
 pandas>=1.3
 numpy>=1.21
 scikit-learn>=1.0
 imbalanced-learn>=0.10
 joblib>=1.1
 
-# Optional / recommended for improved model performance and explainability
-xgboost>=1.6   # optional, used only if installed
-shap>=0.41     # optional, for SHAP explanations
+# Optional model and explainability packages
+xgboost>=1.6
+shap>=0.41
 
-# Visuals / testing
+# Visualisation, testing, and notebook support
 matplotlib>=3.4
 seaborn>=0.11
 pytest>=7.0
+notebook>=7.0
+ipykernel>=6.0
